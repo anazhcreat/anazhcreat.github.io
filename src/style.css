@@ -1,0 +1,72 @@
+ul.nav {
+     margin-left: 0px;
+     padding-left: 0px;
+     list-style: none;
+ }
+ ul.nav li:last-child a {
+     border-bottom: 1px dashed #333;
+ }
+ ul {
+     list-style: none;
+     margin: 0;
+     padding-left: 0;
+     margin-top: 25px;
+ }
+ a {
+     text-decoration: overline;
+     background: #DC143C;
+     color: #000000;
+     padding: 20px;
+     font-family: courier new;
+     border-radius: 4;
+ }
+ a: hover {
+     background: #1C85BB;
+ }
+
+ li {
+     float: left;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-right: 16px;
+ }
+/*задаем стиль шапке*/
+ #header {
+     background-color: #8B0000;
+ }
+/*задаем стиль разделу меню*/
+ #leftSidebar {
+     background-color: #FFE4C4;
+     height: 90px;
+     margin: 0px;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+/*задаем стиль блоку с рекламой*/
+ #rightSidebar {
+     background-color: #bbb;
+     float: right;
+     width: 28%;
+     height: 700px;
+     margin-right: 10px;
+ }
+/*задаем стиль основному контенту*/
+ #content {
+     overflow: auto;
+     height: 700px;
+     margin-left: 10px;
+     width: 70%;
+ }
+/*задаем стиль подвалу*/
+ #footer {
+     background-color: #FFE4C4;
+ }
+      .immg {
+        float: left;
+        margin-right: 5px;
+        opacity: 1.0;
+      }
+      .immg:hover {
+        opacity: 0.4;
+      }
+
