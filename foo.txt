@@ -1,2 +1,2 @@
-header master
+header
 hello world
